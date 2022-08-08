@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+*:not(a){
+  color: #fff;
+}
+.main {
+  position: relative;
+  background-image: url(/img/pexels-fabio-marciano-2565420.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .sign {
+  background-color: rgba(0, 0, 0, 0.622);
+  position: relative;
+  padding: 30px;
+  padding-top: 0;
+  border-radius: 6px;
+  width: 300px;
+  height: auto;
+}
+.main .sign h1 {
+  padding: 20px 0;
+  padding-top: 10px;
+}
+.main .sign .social {
+  position: absolute;
+  top: 15px;
+  right: -15px;
+}
+.main .sign .social i {
+  background-color: #ff9f29;
+  color: #000;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.main .sign .social i:hover {
+  color: #fff;
+}
+
+.main .sign .user {
+  position: relative;
+}
+.main .sign .user input {
+  padding: 10px;
+  padding-left: 40px;
+  margin-bottom: 10px;
+  color: #000;
+  border-radius: 8px;
+  width: calc(100% - 90px);
+  outline: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.main .sign .user i {
+  position: absolute;
+  color: #ff9f29;
+  top: 10px;
+  left: 13px;
+}
+.main .sign  input[type="checkbox"]{
+  margin-right: 10px;
+}
+.main .sign button{
+  display: block;
+  padding: 10px 30px;
+  border-radius: 8px;
+  outline: none;
+  font-size: 17px;
+  color: #000;
+  background-color: #ff9f29;
+  border: none;
+  margin: 15px 210px;
+  transition: 0.3s;
+}
+.main .sign button:hover{
+  background-color: #fff;
+}
+.main .sign .text{
+  text-align: center;
+  font-size: 17px;
+}
+.main .sign .text a{
+  color: #fcb737;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.main .sign .text a:hover {
+  color:#ff9f29;
+  text-decoration: underline;
+}
